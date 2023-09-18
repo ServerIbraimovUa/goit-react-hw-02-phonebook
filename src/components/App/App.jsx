@@ -13,6 +13,9 @@ export default class App extends Component {
   };
 
   formSubmitHandler = ({ name, number }) => {
+    if (this.state.contacts.find(contact => contact.name === name)) {
+      return alert(`${name} is already in contacts`);
+    }
     const newState = {
       id: nanoid(),
       name,
