@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import { Formik, Field, ErrorMessage } from 'formik';
 import * as yup from 'yup';
-import { nanoid } from 'nanoid';
 import { FormEl } from './ContactForm.styled';
 export default class ContactForm extends Component {
   state = {
