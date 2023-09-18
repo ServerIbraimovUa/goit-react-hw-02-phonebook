@@ -1,5 +1,4 @@
 import { List } from './ContactList.styled';
-
 const ContactList = ({ contacts, onDelete }) => {
   return (
     <List>

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Form } from 'formik';
 
-export const Form = styled.form`
+export const FormEl = styled(Form)`
   width: 400px;
   margin: auto;
   display: flex;
